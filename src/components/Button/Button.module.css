@@ -1,0 +1,18 @@
+.submitButton {
+    height: 40px;
+    width: 210px;
+    background-color: #FFF;
+    color: #FC842D;
+     box-shadow: 0px 4px 10px 0px rgba(252, 132, 45, 0.5);
+    border-radius: 30px;
+    border: 1px solid ;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #FC842D;
+}

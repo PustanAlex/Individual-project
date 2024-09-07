@@ -1,7 +1,9 @@
+import { Homepage } from "./Homepage/Homepage";
+
 export const App = () => {
   return (
-    <div>
-      <p>Hello world</p>
+    <div className="homepage">
+      <Homepage></Homepage>
     </div>
   );
 };

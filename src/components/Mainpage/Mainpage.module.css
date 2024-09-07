@@ -1,0 +1,32 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 35px;
+}
+
+h2 {
+    width: 280px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+    /* margin-top: 32px; */
+}
+
+@media screen and ( min-width: 768px) {
+
+    h2 {
+        width: 704px;
+        font-size: 34px;
+    }
+
+    .mainPage {
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 704px;
+        margin: 100px 32px
+    }
+    
+}
