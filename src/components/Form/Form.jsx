@@ -3,6 +3,8 @@ import styles from './Form.module.css';
 export const Form = () => {
   return (
     <form>
+    
+  
       <label>
         <input
           type="number"
@@ -24,19 +26,9 @@ export const Form = () => {
           required
         />
       </label>
-      <label>
-        <input
-          type="number"
-          id="dweight"
-          name="dweight"
-          placeholder="Desired height*"
-          required
-        />
-      </label>
-
-      <div className={styles.radioGroup}>
-        <label>Blood type*</label>
-        <div>
+         <div className={styles.radioGroup}>
+      <label>Blood type*</label>
+        <div className={styles.radioButtons}>
           <label>
             <input type="radio" name="blood-type" value="1" required /> Z
           </label>
@@ -50,7 +42,19 @@ export const Form = () => {
             <input type="radio" name="blood-type" value="4" required /> A
           </label>
         </div>
+         
       </div>
+      <label>
+        <input
+          type="number"
+          id="dweight"
+          name="dweight"
+          placeholder="Desired height*"
+          required
+        />
+      </label>
+
+     
     </form>
   );
 };
