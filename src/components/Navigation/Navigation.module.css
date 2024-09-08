@@ -21,7 +21,7 @@ li {
     align-items: center;
   }
 
-span {
+.horizontalLine {
     border: 2px solid #E0E0E0;
     width: 100%;
     display: block;
@@ -34,6 +34,26 @@ ul {
     gap: 14px;
 }
 
+
+.startWord {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: verdana, sans-serif;
+    display: none;
+}
+
+.slimmingWord {
+    color: orange;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
 @media screen and ( min-width: 768px ) {
        .navigation {
         width: 100%;
@@ -43,9 +63,38 @@ ul {
        ul {
         margin: 20px 32px;
        }
+
+       .startWord {
+        display: block; 
+       }
+
 }
 
 @media screen and (min-width: 1280px) {
      
+
+    .navigation {
+        justify-content: flex-start;
+    }
+
+    .verticalLine {
+        border-right: 2px solid #E0E0E0;
+        height: 32px;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navWrapper {
+        margin-top: 80px;
+    }
     
+    .horizontalLine {
+        display: none;
+    }
+
+
+
 }

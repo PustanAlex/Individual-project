@@ -4,14 +4,19 @@ export const Navigation = () => {
   return (
     <div className={styles.navWrapper}>
       <nav className={styles.navigation}>
-          <img src="./logo-png.png" alt="Logo" />
+        <div className={styles.logoWrapper}>
+        <img src="./logo-png.png" alt="Logo" />
+        <p className={styles.startWord}>Start<i className={styles.slimmingWord}>Slimming</i></p>
+        </div>
+    
+          <span className={styles.verticalLine}></span>
           <ul>
             <li className="text">LOG IN</li>
             <li className="text">REGISTER</li>
           </ul>
 
       </nav>
-      <span></span>
+      <span className={styles.horizontalLine}></span>
     </div>
   );
 };

@@ -26,14 +26,20 @@ form {
 }
 
 input[type='number']{
-    border: 1px solid #ccc;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
     width: 100%;
     padding-bottom: 8px;
     border-radius: 4px;
 }
 
+input[type='number']::-webkit-inner-spin-button, input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
 input[type='radio']:checked {
-    accent-color: #FC842D;
+    fill: #FC842D;
 }
 
 .radioButtons {
@@ -69,3 +75,6 @@ input[type='radio']:checked {
    
     
 }
+
+
+/* TODO: Radio buttons checked color*/
