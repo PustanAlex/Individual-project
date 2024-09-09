@@ -9,10 +9,10 @@ export const Login = () => {
       <h3>Log In</h3>
       <form className={styles.formWrapper}>
         <label htmlFor='email' id='email'>
-          <Input type="email" name="email" placeholder='Email*' />
+          <Input type="email" name="email" placeholder='Email*'  required/>
         </label>
         <label htmlFor='password' id='password'>
-          <Input type="password" name="password" placeholder='Password*'/>
+          <Input type="password" name="password" placeholder='Password*' required/>
         </label>
         <Button text={'Log in'}/>
       </form>

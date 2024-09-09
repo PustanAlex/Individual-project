@@ -8,13 +8,13 @@ export const Register = () => {
       <h3>Register</h3>
       <form>
         <label htmlFor='username' id='username'>
-          <Input type="text" name="username" placeholder='Name*'  />
+          <Input type="text" name="username" placeholder='Name*' required />
         </label>
         <label htmlFor='email' id='email'>
-          <Input type="email" name="email" placeholder='Email*' />
+          <Input type="email" name="email" placeholder='Email*' required/>
         </label>
         <label htmlFor='password' id='password'>
-          <Input type="password" name="password" placeholder='Password*' />
+          <Input type="password" name="password" placeholder='Password*' required/>
         </label>
         <Button className={styles.registerButton} text={'Register'}/>
       </form>
