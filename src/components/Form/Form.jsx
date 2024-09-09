@@ -1,3 +1,4 @@
+import { Input } from 'components/Input/Input';
 import styles from './Form.module.css';
 
 export const Form = () => {
@@ -6,7 +7,7 @@ export const Form = () => {
     
   
       <label>
-        <input
+        <Input
           type="number"
           id="Height"
           name="Height"
@@ -15,10 +16,10 @@ export const Form = () => {
         />
       </label>
       <label>
-        <input type="number" id="Age" name="Age" placeholder="Age*" required />
+        <Input type="number" id="Age" name="Age" placeholder="Age*" required />
       </label>
       <label>
-        <input
+        <Input
           type="number"
           id="cweight"
           name="cweight"
@@ -45,7 +46,7 @@ export const Form = () => {
          
       </div>
       <label>
-        <input
+        <Input
           type="number"
           id="dweight"
           name="dweight"

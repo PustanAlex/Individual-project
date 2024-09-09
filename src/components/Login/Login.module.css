@@ -1,0 +1,11 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.logInWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+

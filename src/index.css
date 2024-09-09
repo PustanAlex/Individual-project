@@ -14,8 +14,29 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .homepage {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3 {
+font-family: Verdana;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.01px;
+color:#FC842D ;
+text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  h3 {
+      text-align: start;
+  }
+  
 }

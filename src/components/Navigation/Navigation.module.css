@@ -8,6 +8,10 @@
 
 li {
     list-style: none;
+
+}
+
+ul a {
     font-size: 14px;
     font-family: Verdana, sans-serif;
     font-weight: 700;
@@ -39,6 +43,7 @@ ul {
     font-weight: 700;
     font-family: verdana, sans-serif;
     display: none;
+    color: black;
 }
 
 .slimmingWord {

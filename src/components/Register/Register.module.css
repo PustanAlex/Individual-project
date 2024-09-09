@@ -1,0 +1,10 @@
+.registerWrapper form{
+    display: flex;
+    flex-direction: column;
+}
+
+.registerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
