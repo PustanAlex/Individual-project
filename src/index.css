@@ -33,10 +33,25 @@ color:#FC842D ;
 text-align: center;
 }
 
+
+
+
 @media screen and (min-width: 768px) {
 
   h3 {
       text-align: start;
   }
   
+}
+
+@media screen and (min-width:1280px) {
+  .appWrapper {
+    display: flex;
+  }
+  
+
+  .routesWrapper {
+    width: 100%;
+  }
+
 }

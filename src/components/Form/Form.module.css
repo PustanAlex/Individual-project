@@ -36,7 +36,7 @@ input[type='radio']:checked {
 
 .radioButtons {
     display: flex;
-    gap: 8px;
+    gap: 20px;
     justify-content:flex-start;
     align-items:flex-start;
 }
@@ -68,5 +68,3 @@ input[type='radio']:checked {
     
 }
 
-
-/* TODO: Radio buttons checked color*/
