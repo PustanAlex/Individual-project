@@ -3,6 +3,7 @@ import { Mainpage } from './Mainpage/Mainpage';
 import { Navigation } from './Navigation/Navigation';
 import { Footer } from './Footer/Footer';
 
+
 export const App = () => {
   return (
     <Router>
